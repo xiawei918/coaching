@@ -1,0 +1,59 @@
+.container {
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0;
+    height: 600px;
+    width: auto;
+    margin-top: 0;
+}
+
+.sectionone {
+    height: 100%;
+    background-image: url('../../assets/background9.png');
+    background-size: cover;
+    background-position: center center;
+    z-index: -10;
+}
+
+.sectionone h2 {
+    margin-top: 0;
+}
+
+.sectiononecontent {
+    color: white;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 80px 100px;
+}
+
+.sectiononetitle {
+    font-size: 45px;
+}
+
+.sectiononetext {
+    max-width: 400px;
+    font-size: 20px;
+    white-space: normal;
+}
+
+@media all and (max-width:750px) {
+    .sectiononecontent {
+        margin-left: auto;
+        margin-right: 0;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 35%;
+    }
+    
+    .sectiononetitle {
+        font-size: 35px;
+    }
+    
+    .sectiononetext {
+        font-size: 18px;
+        white-space: normal;
+    }
+}

@@ -1,0 +1,168 @@
+.container {
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0;
+    height: 1800px;
+    width: auto;
+    margin-top: 0;
+}
+
+.sectionone {
+    height: 600px;
+    background-image: url('../../assets/background8.png');
+    background-size: cover;
+    background-position: center center;
+    z-index: -10;
+}
+
+.sectionone h2 {
+    margin-top: 0;
+    white-space: normal;
+}
+
+.sectiononecontent {
+    color: white;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 80px 150px;
+    float: right;
+}
+
+.sectiononetitle {
+    font-size: 45px;
+}
+
+.sectiononetext {
+    font-size: 20px;
+    white-space: normal;
+}
+
+.sectiontwo {
+    height: 600px;
+    background-image: url('../../assets/background3.png');
+    background-size: cover;
+    background-position: center center;
+    z-index: -10;
+}
+
+.sectiontwocontent {
+    color: white;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 50px 100px;
+}
+
+.sectiontwo h2 {
+    margin-top: 0;
+    white-space: normal;
+}
+
+.sectiontwotitle {
+    font-size: 40px;
+}
+
+.sectiontwotext {
+    font-size: 20px;
+    white-space: normal;
+}
+
+.sectionthree {
+    margin-top: 0;
+    height: 600px;
+    background-image: url('../../assets/background4.png');
+    background-size: cover;
+    background-position: center center;
+    z-index: -10;
+}
+
+.sectionthreecontent {
+    color: white;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 50px 100px;
+}
+
+.sectionthree h2 {
+    margin-top: 0;
+    white-space: normal;
+}
+
+.sectionthreetitle {
+    font-size: 40px;
+}
+
+.sectionthreetext {
+    font-size: 20px;
+    white-space: normal;
+}
+
+@media all and (max-width:750px) {
+    .sectiononecontent {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 50%;
+        padding: 0 8%;
+        float: right;
+    }
+    
+    .sectiononetitle {
+        font-size: 35px;
+    }
+    
+    .sectiononetext {
+        font-size: 18px;
+        white-space: normal;
+    }
+
+    .sectiontwocontent {
+        height: 100%;
+        color: white;
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 0px 50px;
+        margin-top: 0;
+    }
+    
+    .sectiontwotitle {
+        font-size: 35px;
+    }
+    
+    .sectiontwotext {
+        font-size: 18px;
+        white-space: normal;
+    }
+    
+    .sectiontwo h2 {
+        padding-top: 15%;
+        white-space: nowrap;
+    }
+
+    .sectionthreecontent {
+        height: 100%;
+        color: white;
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 0px 50px;
+        margin-top: 0;
+    }
+    
+    .sectionthreetitle {
+        font-size: 35px;
+    }
+    
+    .sectionthreetext {
+        font-size: 18px;
+        white-space: normal;
+    }
+    
+    .sectionthree h2 {
+        padding-top: 15%;
+        white-space: nowrap;
+    }
+}
